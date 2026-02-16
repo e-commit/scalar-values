@@ -17,6 +17,8 @@ class ScalarValues
 {
     /**
      * @param array<mixed> $array
+     *
+     * @phpstan-assert-if-true array<scalar> $array
      */
     public static function containsOnlyScalarValues(array $array): bool
     {
